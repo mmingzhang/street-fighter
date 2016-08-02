@@ -1,0 +1,112 @@
+body {
+  background-color: black;
+}
+ 
+.main {
+  background-color: white;
+  margin-top: 110px;
+  min-width: 1200px;
+  padding-left: 100px;
+  height: 500px;
+}
+ 
+.hadouken, .ryu-ready, .ryu-still, .ryu-throwing, .ryu-cool {
+  background-repeat: no-repeat;
+} 
+  
+.ryu {
+  position: relative;
+}
+ 
+.ryu-ready, .ryu-still, .ryu-throwing, .ryu-cool{
+  width: 659px;
+  height: 494px;
+}
+ 
+.ryu-ready, .ryu-throwing, .ryu-cool {
+  display: none;
+} 
+ 
+.ryu-ready {
+  background-image: url('../images/ryu-ready-position.gif');
+  position: absolute;
+}
+ 
+.ryu-still {
+  background-image: url('../images/ryu-standing-still.png');
+  position: absolute;
+}
+ 
+.ryu-throwing {
+  background-image: url('../images/ryu-throwing-hadouken.png');
+  position: absolute;
+}
+
+.ryu-cool {
+  background-image: url('../images/ryu-cool.gif');
+  position: absolute;
+}
+
+.hadouken {
+  background-image: url('../images/hadouken.gif');
+  position: absolute;
+  width: 156px; 
+  height: 90px;
+  left: 600px;
+  top: 280px;
+  display: none;
+}
+
+.text-section{
+  position: absolute;
+  left: 650px;
+  height: 425px;
+  width: 600px;
+  padding-top: 75px;
+}
+
+.logo-stfighter {
+	background-image: url('../images/streetfighter.png');
+	width: 300px;
+	height: 172px;
+	display: none;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.logo-jquery {
+	background-image: url('../images/jqueryLogo.png');
+	width: 500px;
+	height: 150px;
+	display: none;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.img-brought {
+	background-image: url('../images/brought2u.png');
+	width: 450px;
+	height: 172px;
+	display: none;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.text-instruction p {
+  width: 70%;
+  position: absolute;
+  top: 300px;
+  left: 50px;
+  color: black;
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 30px;
+  font-style: italic;
+}
+
+.text-instruction p + p {
+  margin-left: 100px;
+  margin-top: 70px;
+}
